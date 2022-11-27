@@ -1,3 +1,4 @@
+; @author Daniel McCoy Stephenson
 ; pre execution we have num1 in R1 and num2 in R2
 ; return is R0
 
