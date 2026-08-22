@@ -1,0 +1,8 @@
+# src/multiplyTwoNumbers.asm is committed with CRLF line endings. Unsetting the
+# text attribute disables end-of-line conversion for it entirely, so no
+# contributor's core.autocrlf setting can renormalize the file and turn a
+# one-line change into a whole-file diff.
+#
+# Note: `*.asm text eol=crlf` would NOT be equivalent -- it stores LF in the
+# index, which is the very renormalization this line exists to prevent.
+*.asm -text

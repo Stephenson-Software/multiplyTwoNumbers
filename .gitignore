@@ -1,0 +1,5 @@
+# Output produced by assembling src/multiplyTwoNumbers.asm in place.
+*.obj
+*.sym
+*.bin
+*.hex
