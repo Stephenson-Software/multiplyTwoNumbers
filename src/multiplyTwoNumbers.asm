@@ -11,7 +11,7 @@ ADD R1, R1, #5 ; store five in R1
 ADD R2, R2, #6 ; store six in R2
 
 MULTIPLY:
-AND R0, R0 #0 ; clear R0
+AND R0, R0, #0 ; clear R0
 AGAIN ADD R0, R0, R1 ; add num1 to R0
 ADD R2, R2, #-1 ; decrement R2
 BRp AGAIN ; if more to add, jump to again
